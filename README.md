@@ -123,7 +123,7 @@ API available at:
   **Request Body:**
   ```json
   {
-    "clientId": 1,
+    "customerId": 1,
     "items": [
       {
         "productId": 1,
