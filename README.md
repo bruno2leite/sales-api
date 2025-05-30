@@ -65,6 +65,7 @@ API available at:
 ---
 
 ## 📮 API Endpoints
+``Use Postman or Insomnia``
 
 ### 🔹 Products
 
