@@ -34,6 +34,12 @@ This REST API allows users to manage a simple sales system with products, client
 
 ## ⚙️ How to Run
 
+### Clone the Application
+
+```bash
+git clone https://github.com/bruno2leite/sales-api.git
+cd sales-api
+```
 ### 🔧 Database Setup
 
 Before running the project, make sure you have PostgreSQL installed and running. Then:
@@ -49,17 +55,12 @@ Before running the project, make sure you have PostgreSQL installed and running.
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
    server.port=8080
    ```
-
-### ▶️ Start the Application
-
-```bash
-git clone https://github.com/bruno2leite/sales-api.git
-cd sales-api
-mvn spring-boot:run
-```
+   
+Start the application:  
+`mvn spring-boot:run`
 
 API available at:  
-📍 `http://localhost:8080`
+📍`http://localhost:8080`
 
 ---
 
